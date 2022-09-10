@@ -6,7 +6,7 @@ API для блога, который позволяет оставлять от
 ## Getting Started:
 Клонировать репозиторий и перейти в него в командной строке:
 ```
-https://github.com/awrora2/infra_sp2.git
+https://github.com/awrora2/yamdb_final.git
 ```
 Установить и активировать виртуальное окружение:
 ```
