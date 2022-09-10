@@ -2,7 +2,7 @@ import os
 from datetime import timedelta
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "api_yamdb.api_yamdb.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "api_yamdb.settings")
 
 SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
