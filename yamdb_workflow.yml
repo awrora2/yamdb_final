@@ -41,7 +41,7 @@ jobs:
           uses: docker/build-push-action@v2
           with:
             push: true
-            tags: awrora2/api_yamdb:v1
+            tags: awrora2/api_yamdb:latest
             context: ./api_yamdb
             file: ./api_yamdb/Dockerfile
   deploy:
