@@ -28,13 +28,12 @@ http://localhost
 ```
 В файле находятся переменные окружения такие, как:
 ```
-DB_NAME,
-POSTGRES_USER,
-POSTGRES_PASSWORD,
-DB_HOST,
-DB_PORT.
+DB_NAME=postgres,
+POSTGRES_USER=user,
+POSTGRES_PASSWORD=1234,
+DB_HOST=db,
+DB_PORT=5430.
 ```
-
 
 ## Prerequisites:
 ```

@@ -27,6 +27,7 @@ jobs:
   docker:
       runs-on: ubuntu-latest
       needs: tests
+      if: github.ref == 'refs/heads/master'
       steps:
         - name: Check out the repo
           uses: actions/checkout@v2
@@ -58,6 +59,7 @@ jobs:
           script: |
             sudo docker-compose stop
             sudo docker-compose rm web
+            docker push awrora2/api_yamdb:latest
             touch .env
             echo DB_ENGINE=${{ secrets.DB_ENGINE }} >> .env
             echo DB_NAME=${{ secrets.DB_NAME }} >> .env
